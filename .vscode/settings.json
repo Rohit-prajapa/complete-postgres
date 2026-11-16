@@ -1,0 +1,26 @@
+{
+  "sqltools.connections": [
+    {
+      "ssh": "Disabled",
+      "previewLimit": 50,
+      "server": "127.0.0.1",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "chaicode_sql_conn",
+      "database": "practice_db",
+      "username": "postgres",
+      "password": "postgres"
+    },
+    {
+      "ssh": "Disabled",
+      "previewLimit": 50,
+      "server": "127.0.0.1",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "chaicode_postgres_new",
+      "database": "practice_db",
+      "username": "postgres",
+      "password": "postgres"
+    }
+  ]
+}
