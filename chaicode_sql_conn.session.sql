@@ -977,6 +977,11 @@ LEFT JOIN categories as c on c.category_id = p.category_id
 GROUP BY p.category_id, c.category_name;
 
 
+
+
+SELECT  category_id, COUNT(*)  FROM products GROUP BY category_id;
+
+
 -- ! Give me total number of products in each category
 
 -- ! and give me categories having > 5 products
